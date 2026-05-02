@@ -26,7 +26,7 @@ migrate = Migrate(app, db)
 CORS(app)
 
 # Replace with your actual Claude API key
-CLAUDE_API_KEY = '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'
+CLAUDE_API_KEY = 
 client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 
 from models import User, Document
